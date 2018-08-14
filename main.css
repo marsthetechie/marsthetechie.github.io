@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #030321;
+}
+
+/* ---------------------------------------
+----------------NAVBAR -------------------
+-----------------------------------------*/
+
+header ul, ul a{
+    color: #fff;
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+.navi {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.n1, .n2, .n3 {
+    text-align: center;
+}
+
+/* ---------------------------------------
+---------------- SVG NAME ----------------
+----------------------------------------*/
+
+svg {
+    display: block;
+    font: 4em 'Bungee Shade';
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 1px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s linear infinite;
+}
+
+.text-copy:nth-child(1){
+	stroke: #DEE1DE;
+	animation-delay: -1s;
+}
+
+.text-copy:nth-child(2){
+	stroke: #E1664E;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #3F332C;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #43A0B7;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #AAE4E0;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+.me {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+}
+
+.about {
+    background: #43A0B7;
+}
+
+.social {
+    background: #E1664E;
+}
+
+@media (max-width: 700px) {
+    .me {
+        display: block;
+    }
+
+    .about, .social {
+        padding: 1.5%;
+    }
+}
