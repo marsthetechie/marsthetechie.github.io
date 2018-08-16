@@ -189,3 +189,12 @@ svg {
         padding: 1.5%;
     }
 }
+
+.inner {
+    display: flex;
+    transition: left 0.25s ease-out;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
