@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
-html, body {
+html, 
+body {
     margin: 0;
     padding: 0;
 }
@@ -14,7 +15,8 @@ body {
 ----------------NAVBAR -------------------
 -----------------------------------------*/
 
-header ul, ul a{
+header ul, 
+ul a{
     color: #fff;
     list-style-type: none;
     font-family: 'Roboto Mono', monospace;
@@ -108,7 +110,9 @@ h2 {
     grid-template-columns: repeat(4, 25%);
 }
 
-.n1, .n2, .n3 {
+.n1, 
+.n2, 
+.n3 {
     text-align: center;
 }
 
@@ -165,6 +169,7 @@ svg {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     text-align: center;
+    height: 20%;
 }
 
 .about {
@@ -180,16 +185,42 @@ svg {
         display: block;
     }
 
-    .about, .social {
+    .about, 
+    .social {
         padding: 1.5%;
     }
 }
 
-.inner {
-    display: flex;
-    transition: left 0.25s ease-out;
-}
-
 p {
     font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+}
+
+.aboutcontent {
+    display: flex;
+    align-items: center;
+}
+
+.prev, 
+.next {
+    margin: 2%;
+    padding: 1.5%;
+    width: 30px;
+    height: 20px;
+    transition: .5s;
+    box-shadow: -2px 2px rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.prev {
+    transform: rotate(45deg);
+}
+
+.next {
+    transform: rotate(225deg);
+}
+
+.prev:hover, 
+.next:hover {
+    box-shadow: -2px 2px rgba(255, 255, 255, 1);
 }
