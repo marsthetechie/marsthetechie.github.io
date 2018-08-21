@@ -203,6 +203,7 @@ p {
 .aboutcontent {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .prev, 
