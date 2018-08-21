@@ -209,7 +209,7 @@ p {
 .prev, 
 .next {
     margin: 3%;
-    background-color: transparent;
+    background: none;
     border: none;
     outline: none;
     padding: 2%;
