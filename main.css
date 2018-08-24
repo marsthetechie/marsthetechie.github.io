@@ -51,7 +51,7 @@ li > a:focus::before {
     transform: scaleX(1);
 }
 
-h2 {
+h2, h3 {
     font-family: 'Roboto Mono', monospace;
     color: #fff;
 }
@@ -182,6 +182,30 @@ p {
 .prev:hover, 
 .next:hover {
     box-shadow: -2px 2px rgba(255, 255, 255, 1);
+}
+
+.colorhtml {
+    color: #F16529;
+}
+
+.colorcss {
+    color: #030321;
+}
+
+.colorslash {
+    color: #fff;
+}
+
+.colorjs {
+    color: #F5DE19;
+}
+
+.colorreact {
+    color: #61DAFB;
+}
+
+.colorlove {
+    color: #ff0000;
 }
 
 /* -----------------------------------------
