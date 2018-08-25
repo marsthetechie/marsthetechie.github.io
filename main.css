@@ -216,3 +216,47 @@ p {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.button {
+    display: block;
+    width: 20%;
+    padding: 1%;
+    margin: auto;
+    line-height: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.twi {
+    background-color: #1DA1F2;
+}
+
+.button:hover {
+    background-color: #fff;
+}
+
+.twi:hover {
+    color: #1DA1F2;
+}
+
+.face {
+    background-color: #367BC0;
+}
+
+.face:hover {
+    color: #367BC0;
+}
+
+.ins {
+    background: linear-gradient(to right, #FCAD48, #db3683, #7f409a);
+}
+
+.ins:hover {
+    background: #fff;
+    color: #db3683;
+}
