@@ -124,7 +124,7 @@ svg {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     text-align: center;
-    height: 20%;
+    margin: 0;
 }
 
 .about {
@@ -259,4 +259,48 @@ p {
 .ins:hover {
     background: #fff;
     color: #db3683;
+}
+
+/* ------------------------------------
+------------- PROJECTS ----------------
+------------------------------------ */
+
+.gallery {
+    background-color: #b6a59d;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-top: 0;
+    padding: 2%;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #030321;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-header {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #030321;
+    background-color: #3f4244;
+    padding: 2% 4%;
+}
+
+.card-content {
+    width: 100%;
+    height: 200px;
 }
