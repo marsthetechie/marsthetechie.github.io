@@ -288,6 +288,7 @@ p {
     border: 1px solid #030321;
     border-radius: 5px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .card-header {
