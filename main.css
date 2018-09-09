@@ -158,7 +158,9 @@ p {
 }
 
 .prev, 
-.next {
+.prev2,
+.next,
+.next2 {
     margin: 3%;
     background: none;
     border: none;
@@ -171,16 +173,20 @@ p {
     cursor: pointer;
 }
 
-.prev {
+.prev,
+.prev2 {
     transform: rotate(45deg);
 }
 
-.next {
+.next,
+.next2 {
     transform: rotate(225deg);
 }
 
 .prev:hover, 
-.next:hover {
+.prev2:hover,
+.next:hover,
+.next2:hover {
     box-shadow: -2px 2px rgba(255, 255, 255, 1);
 }
 
@@ -283,41 +289,34 @@ p {
     padding: 2%;
 }
 
-.portfolio {
+.project {
+    height: 70%;
+    width: 60%;
+}
+
+.project-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
+    padding: 2%;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    border: 1px solid #030321;
-    border-radius: 5px;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    margin: 50px;
+.project-text {
+    text-align: justify;
+    padding: 0 2%;
 }
 
-.card:hover {
-    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.3);
-}
-
-.card-header {
-    color: #fff;
+.project-text h3 {
     text-align: center;
-    font-weight: 600;
-    font-family: 'Roboto Mono', monospace;
-    border-bottom: 1px solid #030321;
-    background-color: #3f4244;
-    padding: 2% 4%;
 }
 
-.card-content {
-    width: 100%;
-    height: 200px;
+.gth {
+    background-color: #000;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+}
+
+.gth:hover {
+    color: #000;
 }
 
 /* ------------------------------------
