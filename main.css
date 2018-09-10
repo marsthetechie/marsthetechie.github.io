@@ -190,23 +190,23 @@ p {
     box-shadow: -2px 2px rgba(255, 255, 255, 1);
 }
 
-.colorhtml {
+.about-me .colorhtml {
     color: #F16529;
 }
 
-.colorcss {
+.about-me .colorcss {
     color: #030321;
 }
 
-.colorslash {
+.about-me .colorslash {
     color: #fff;
 }
 
-.colorjs {
+.about-me .colorjs {
     color: #F5DE19;
 }
 
-.colorreact {
+.about-me .colorreact {
     color: #61DAFB;
 }
 
@@ -214,11 +214,11 @@ p {
     color: #ff0000;
 }
 
-.other p {
+.about-me p {
     color: #030321;
 }
 
-.other .other-say {
+.about-me .other-say {
     color: #d4c1b8;
 }
 

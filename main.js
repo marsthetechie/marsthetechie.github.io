@@ -2,8 +2,31 @@
 
 const mySiema = new Siema();
 
-document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
-document.querySelector('.next').addEventListener('click', () => mySiema.next());
+let currentMeSlide = 1;
+let numOfMeSlides = document.querySelectorAll('.about-me').length;
+
+document.querySelector('.next').addEventListener('click', () => {
+
+    if (currentMeSlide === numOfMeSlides) {
+        mySiema.prev(numOfMeSlides);
+        currentMeSlide = 1;
+    } else {
+        mySiema.next();
+        currentMeSlide++;
+    }
+
+});
+document.querySelector('.prev').addEventListener('click', () => {
+
+    if (currentMeSlide === 1) {
+        mySiema.next(numOfMeSlides);
+        currentMeSlide = numOfMeSlides;
+    } else {
+        mySiema.prev();
+        currentMeSlide--;
+    }
+
+});
 
 const mySiema2 = new Siema({
     selector: '.mySiema'
