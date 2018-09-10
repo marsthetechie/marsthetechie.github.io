@@ -25,4 +25,14 @@ document.querySelector('.next2').addEventListener('click', () => {
 });
 
 
-document.querySelector('.prev2').addEventListener('click', () => mySiema2.prev());
+document.querySelector('.prev2').addEventListener('click', () => {
+
+    if (currentSlide === 1) {
+        mySiema2.next(numOfSlides);
+        currentSlide = numOfSlides;
+    } else {
+        mySiema2.prev();
+        currentSlide--;
+    }
+
+});
