@@ -135,7 +135,7 @@ svg {
     background: #E1664E;
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     .me {
         display: block;
     }
@@ -319,9 +319,14 @@ p {
     color: #000;
 }
 
-#diet .project-container img {
-    height: 60%;
-    width: 50%;
+@media only screen and (max-width: 700px) {
+    .project-container {
+        display: block;
+    }
+
+    .project {
+        width: 100%;
+    }
 }
 
 /* ------------------------------------
