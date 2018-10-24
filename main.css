@@ -206,12 +206,20 @@ p {
     color: #F5DE19;
 }
 
-.about-me .colorreact {
-    color: #61DAFB;
+.about-me .colorjq {
+    color: #0769AD;
 }
 
-.colorlove {
-    color: #ff0000;
+.about-me .colornode {
+    color: #278f1e;
+}
+
+.about-me .colorphp {
+    color: #8892BF;
+}
+
+.about-me .colorlove {
+    color: #c90000;
 }
 
 .about-me p {
